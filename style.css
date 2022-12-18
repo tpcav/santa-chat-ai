@@ -43,6 +43,7 @@ h2 {
 .card {
   z-index: 1;
   margin: 1rem;
+  width: 300px;
 }
 
 .contact {
