@@ -23,7 +23,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 2rem;
+  padding: 1rem;
 
   border-radius: 1rem;
   background-color: rgb(249, 249, 249);
@@ -42,6 +42,7 @@ h2 {
 
 .card {
   z-index: 1;
+  margin: 1rem;
 }
 
 .contact {
@@ -63,4 +64,13 @@ h2 {
   background-color: rgb(255, 255, 255);
   color: black;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
 }
