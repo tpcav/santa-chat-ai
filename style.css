@@ -1,8 +1,23 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(223, 135, 135);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d7d7d7;
+  height: 100vh;
+  display: grid;
+  place-items: center center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 h1 {
@@ -18,21 +33,17 @@ h2 {
 }
 
 .center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 1rem;
-
+  position: relative;
+  padding: 5rem;
   border-radius: 1rem;
-  background-color: rgb(249, 249, 249);
-  z-index: 0;
-  background: rgba(240, 240, 240, 0.6);
   backdrop-filter: blur(5px);
-  border-radius: 10px;
-  border: 1px solid rgba(135, 135, 135, 0.2);
   box-shadow: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  padding: 2rem;
 }
 
 .features {
@@ -40,54 +51,105 @@ h2 {
   color: black
 }
 
-.card {
-  z-index: 1;
-  margin: 1rem;
-  width: 275px;
-}
-
 .contact {
   position: absolute;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: black;
   padding: 1rem;
   border-radius: 5rem;
-  margin-top: 2.6rem;
   font-size: 1rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
-  color: black;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.card-button {
+  padding: 1rem;
+  border-radius: 5rem;
+  background-color: rgb(22, 22, 22);
+}
+
+.card-button a {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 button {
   border: none;
 }
 
-.card-div {
+.cards{
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  padding: 1rem;
+  grid-gap: 40px;
+}
+.card{
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+.container{
+  position: relative;
+  clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+img{
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+.container:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px 20px 0 0;
+  opacity: 0.7;
+}
+.card1>.container:after{
+  background-image: linear-gradient(
+      135deg,
+      #0100ec,
+      #fb36f4
+  );
+}
+.card2>.container:after{
+  background-image: linear-gradient(
+      135deg,
+      #2bdce3,
+      #42ffdb
+  );
+}
+.card3>.container:after{
+  background-image: linear-gradient(
+      135deg,
+      #ffab1d,
+      #f8501c
+  );
+}
+.details{
+  padding: 20px 10px;
+}
+.details>h3{
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+}
+.details>p{
+  color: #a0a0a0;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
-.cards {
-  background-color: #006b80;
-  color: white;
-  width: 100%;
-}
+
