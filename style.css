@@ -12,7 +12,7 @@ html {
   box-sizing: border-box;
 }
 body{
-  background-color: #d7d7d7;
+  background-color: #ffffff;
   display: grid;
   place-items: center center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -34,16 +34,18 @@ h2 {
 .center {
   position: relative;
   width: 100%;
-  padding: 3rem;
-  border-radius: 1rem;
+  height: 60vh;
+  padding: 0rem;
   backdrop-filter: blur(5px);
-  box-shadow: 5rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.card {
-  padding: 2rem;
+.card-hero {
+  margin-top: 0rem;
+  padding: 6rem;
+  background-color: white;
+  height: 100vh;
+  text-align: center;
 }
 
 .features {
@@ -51,28 +53,59 @@ h2 {
   color: black
 }
 
+
+nav {
+  width: 100vw;
+  margin-top: 2rem;
+  display: flex; /* 1 */
+  justify-content: center; /* 2 */
+  padding: 1rem 100px; /* 3 */
+  background: #d8afaf; /* 4 */
+  border-radius: 4rem;
+}
+
+nav ul {
+  margin-top: 0.4rem;
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 2rem; /* 7! */
+}
+
 .contact {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: black;
   padding: 1rem;
-  border-radius: 5rem;
+  margin-top: 2rem;
+  border-radius: 4rem;
   font-size: 1rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
 }
+
+.contact:hover {
+  background-color: rgb(78, 78, 78);
+}
+
 
 a {
   text-decoration: none;
   color: white;
 }
 
+nav a:hover { 
+  color: rgb(111, 53, 53);
+}
+
 .card-button {
   padding: 1rem;
   border-radius: 5rem;
   background-color: rgb(22, 22, 22);
+}
+
+.card-button:hover {
+  background-color: rgb(41, 41, 41);
 }
 
 .card-button a {
@@ -94,7 +127,7 @@ button {
 .card{
   background-color: rgb(245, 245, 245);
   border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.18);
+  padding: 2rem;
 }
 .container{
   position: relative;
@@ -118,22 +151,22 @@ img{
 .card1>.container:after{
   background-image: linear-gradient(
       135deg,
-      #0100ec,
-      #fb36f4
+      #aa1c1f,
+      #510000
   );
 }
 .card2>.container:after{
   background-image: linear-gradient(
       135deg,
-      #2bdce3,
-      #42ffdb
+      #aa1c1f,
+      #510000
   );
 }
 .card3>.container:after{
   background-image: linear-gradient(
       135deg,
-      #ffab1d,
-      #f8501c
+      #aa1c1f,
+      #510000
   );
 }
 .details{
