@@ -269,15 +269,15 @@ img{
 }
 
 .template-description h1 {
-  padding-left: 3rem;
+  padding-left: 1rem;
   padding-bottom: 1rem;
 }
 
 .template-description p {
   color: rgb(85, 85, 85);
   padding-top: 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .site-footer
