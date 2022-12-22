@@ -31,7 +31,7 @@ h2 {
 .card-hero {
   margin-top: 0rem;
   padding: 2rem;
-  height: 100vh;
+  height: 90vh;
   text-align: center;
 }
 
@@ -176,7 +176,7 @@ img{
 .hero {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@ img{
   background: url(santa-typing.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   filter: brightness(50%);
 }
 .hero-content {
@@ -230,12 +230,10 @@ img{
 
 .template-title {
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .template-description {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   width: 90vw;
 }
 
@@ -404,7 +402,7 @@ img{
 	margin: 0 auto;
 	width: 24px;
 	height: 100px;
-	margin-top: -100px;
+	margin-top: -70px;
 }
 
 .m_scroll_arrows
