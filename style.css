@@ -49,7 +49,6 @@ h2 {
   margin-top: 2rem;
   border-radius: 4rem;
   font-size: 1rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   margin-bottom: 3rem;
 }
@@ -57,7 +56,7 @@ h2 {
 nav {
   width: 100vw;
   display: flex; /* 1 */
-  justify-content: center; /* 2 */
+  justify-content: left; /* 2 */
   padding: 1rem 10px; /* 3 */
   border-radius: 6rem;
 }
@@ -77,7 +76,6 @@ nav li {
   margin-top: 2rem;
   border-radius: 4rem;
   font-size: 1rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   margin: 0.50rem;
   color: rgb(70, 70, 70);
@@ -157,29 +155,8 @@ img{
   top: 0;
   left: 0;
   border-radius: 20px 20px 0 0;
-  opacity: 0.7;
 }
-.card1>.container:after{
-  background-image: linear-gradient(
-      135deg,
-      #aa1c1f,
-      #510000
-  );
-}
-.card2>.container:after{
-  background-image: linear-gradient(
-      135deg,
-      #aa1c1f,
-      #510000
-  );
-}
-.card3>.container:after{
-  background-image: linear-gradient(
-      135deg,
-      #aa1c1f,
-      #510000
-  );
-}
+
 .details{
   padding: 20px 10px;
 }
@@ -197,7 +174,10 @@ img{
 }
 
 .nav-title {
+  padding-left: 2rem;
+  text-align: left;
   font-size: 1.4rem;
+  font-family: cursive;
 }
 
 .hero {
@@ -215,7 +195,7 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(santa_00.png);
+  background: url(santa-typing.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -224,7 +204,6 @@ img{
 .hero-content {
   padding: 2rem;
   position: relative;
-  font-family: "Monserrat", sans-serif;
   color: white;
   text-align: left;
   margin: 0.625rem;
@@ -232,7 +211,7 @@ img{
 .hero-title {
   font-size: 3rem;
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0;
 }
 .hero-subtitle {
