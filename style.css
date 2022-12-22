@@ -219,7 +219,7 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  filter: brightness(75%);
+  filter: brightness(50%);
 }
 .hero-content {
   padding: 2rem;
@@ -255,6 +255,11 @@ img{
 .hero-button:hover {
   background-color: #cb376a;
   border: 1px solid #db7598;
+}
+
+.template-title {
+  text-align: left;
+  margin-top: 2rem;
 }
 
 
