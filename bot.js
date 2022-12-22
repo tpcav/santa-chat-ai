@@ -41,6 +41,7 @@ inputField.addEventListener("keydown", (e) => {
     let input = inputField.value;
     inputField.value = "";
     output(input);
+    inputField.blur(); 
   }
 });
 
