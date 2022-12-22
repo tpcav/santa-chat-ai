@@ -262,4 +262,21 @@ img{
   margin-top: 2rem;
 }
 
+.template-description {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 90vw;
+}
+
+.template-description h1 {
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.template-description p {
+  padding-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 

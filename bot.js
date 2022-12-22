@@ -1,9 +1,10 @@
 const utterances = [ 
   ["how are you", "how is life", "how are things"], //0
-  ["hi", "hey", "hello", "good morning", "good afternoon"], //1
-  ["what are you doing", "what is going on", "what is up"], //2
+  ["hi", "hey", "hello", "good morning", "good afternoon", "hi santa", "hey santa", "hello santa", "good morning santa", "good afternoon santa"], //1
+  ["what are you doing", "what is going on", "what is up", "what are you doing santa", "what is going on santa", "what is up santa"], //2
   ["how old are you"], //3
-  ["who are you", "are you santa", "are you real", "are you human or santa"], //4
+  ["who are you", "what is your name", "who", "who are", "who are u", "who r you", "who r u", "who is santa", "are you santa"], //4
+  ["are you real", "are you human or santa", "are you a real person"], //5
 ];
  
 // Possible responses corresponding to triggers
@@ -24,7 +25,7 @@ const answers = [
   ], //2
   ["Didn't your parents tell you not to ask older people their age?", "How old are your grandparents? That is how old."], //3
   ["I am Santa of course. Why do you ask?", "Santa Claus. On my break, writing to you. The evles are working over time."],	//4
- 
+  ["Truth is, I am real. I hope that you believe in me and the magic of Christmas, for it is through this belief that the holiday season becomes even more special and meaningful.", "I am very much real. I enjoy getting to deliever gifts to all the children in the world.", "I am real, why would I not be? I work tirelessly to deliver presents to all the good boys and girls around the world on Christmas Eve, and I do it with a heart full of cheer and a twinkle in my eye."], //5
 ];
  
 // For any other user input

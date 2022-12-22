@@ -101,6 +101,7 @@ input {
 
 .santa-icon {
   margin-bottom: 12rem;
+	margin-right: 6rem;
 }
 
 .response {
@@ -122,11 +123,12 @@ input {
 	}
 	.chat {
 		width: 75vw;
-		height: 65vh;
+		height: 60%;
 		margin: 1rem;
 	}
 
 	.santa-icon {
 		margin-bottom: 1rem;
+		margin-left: 6rem;
 	}
 }
