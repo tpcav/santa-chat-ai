@@ -12,7 +12,6 @@ html {
   box-sizing: border-box;
 }
 body{
-  background-color: #ffffff;
   display: grid;
   place-items: center center;
 }
@@ -31,8 +30,7 @@ h2 {
 
 .card-hero {
   margin-top: 0rem;
-  padding: 6rem;
-  background-color: white;
+  padding: 2rem;
   height: 100vh;
   text-align: center;
 }
@@ -53,25 +51,16 @@ h2 {
   margin-bottom: 3rem;
 }
 
-nav {
-  width: 100vw;
+.nav {
   display: flex; /* 1 */
-  justify-content: left; /* 2 */
-  padding: 1rem 10px; /* 3 */
-  border-radius: 6rem;
+  justify-content: center; /* 2 */
 }
 
-nav ul {
-  display: flex; /* 5 */
-  list-style: none; /* 6 */
-}
-
-nav li {
-  padding-left: 2rem; /* 7! */
+.nav button {
+  margin-bottom: 4rem;
 }
 
 .contact {
-  background-color: rgb(207, 207, 207);
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 4rem;
@@ -79,7 +68,6 @@ nav li {
   font-weight: 600;
   margin: 0.50rem;
   color: rgb(70, 70, 70);
-  border-color: rgba(220, 220, 220, 0.3);
 }
 
 .button-div {
@@ -177,13 +165,12 @@ img{
   padding-left: 2rem;
   text-align: left;
   font-size: 1.4rem;
-  font-family: cursive;
 }
 
 .hero {
   position: relative;
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,7 +259,7 @@ img{
 .site-footer hr
 {
   border-top-color:#bbb;
-  opacity:0.5
+  opacity:0.7
 }
 .site-footer hr.small
 {
@@ -298,7 +285,6 @@ img{
 .footer-links
 {
   padding-left:0;
-  list-style:none
 }
 .footer-links li
 {
