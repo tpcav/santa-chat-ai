@@ -203,7 +203,7 @@ img{
 .hero {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,7 +218,7 @@ img{
   background: url(santa_00.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   filter: brightness(50%);
 }
 .hero-content {
