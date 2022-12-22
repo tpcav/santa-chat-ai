@@ -131,6 +131,11 @@ button {
   position: relative;
   clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
 }
+
+.container2{
+  position: relative;
+}
+
 img{
   width: 100%;
   display: block;
@@ -214,7 +219,6 @@ img{
   border: 1px solid #cb376a;
   margin-top: 5rem;
   padding: 0.9375rem1.875rem;
-  font-family: "Monserrat", sans-serif;
   font-size: 1.125rem;
   font-weight: 200;
   cursor: pointer;
@@ -250,12 +254,13 @@ img{
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color: #18191b;
   padding: 2rem;
   font-size:15px;
   line-height:24px;
   color:#737373;
-
+  width: 100vw;
+  padding: 2.5rem;
 }
 .site-footer hr
 {
@@ -315,31 +320,13 @@ img{
   line-height:40px;
   margin-left:6px;
   margin-right:0;
-  border-radius:100%;
   background-color:#33353d
 }
 .copyright-text
 {
   margin:0
 }
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
+
 .social-icons
 {
   padding-left:0;
@@ -579,4 +566,12 @@ img{
   100% { opacity: 1; }
 }
 
+#credits {
+  text-align: center;
+}
+
+#quick-links {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
