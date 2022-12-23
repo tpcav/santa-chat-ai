@@ -3,7 +3,7 @@ const utterances = [
   ["how are you", "how are you doing", "how are you feeling"],
   ["where are you", "where are you located", "where are you from"],
   ["what do you do", "what is your job", "what do you do for work"],
-  ["do you have a family", "do you have kids", "do you have any children"],
+  ["family","do you have a family", "do you have kids", "do you have any children"],
   ["do you like your job", "do you enjoy your work", "do you like working"],
   ["thank you", "thanks", "thank you very much"],
   ["goodbye", "bye", "see you later"],
@@ -65,7 +65,6 @@ function output(input) {
   let product;
   let text = input.toLowerCase().replace(/[^\w\s\d]/gi, "");
   text = text
-    .replace(/ a /g, " ")
     .replace(/whats/g, "what is")
     .replace(/please /g, "")
     .replace(/ please/g, "")
